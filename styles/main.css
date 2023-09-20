@@ -27,6 +27,12 @@ img {
   height: auto;
 }
 
+/* OUTLINE-OFFSET  */
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
+
 .button {
   font-family: "Rubik", "Arial", sans-serif;
   display: inline-block;
@@ -51,6 +57,7 @@ img {
 .button-primary:active {
   opacity: 0.6;
 }
+
 /* CONTAINER  */
 .container {
   max-width: 1240px;
@@ -115,6 +122,24 @@ img {
 
 .currency-rates-value {
   color: #555;
+}
+
+/* GLOBAL-SEARCH-FORM  */
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  background-color: #fff;
+  color: #8d8d8d;
+  border: 0;
+  border-radius: 60px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  font-size: 14px;
+  line-height: normal;
 }
 
 /* LANG-TOGGLE  */
